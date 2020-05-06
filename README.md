@@ -1,4 +1,4 @@
-# :mushroom: Lets Chat!
+# :mushroom: Noti - Chat App
 
 ## Team Members
 | Name     | SFSU ID           | Email |
