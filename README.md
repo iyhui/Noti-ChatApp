@@ -1,4 +1,4 @@
-# Chat App
+# :speech_balloon: Chat App
 
 ## Team Members
 | Name     | SFSU ID           | Email |
