@@ -1,4 +1,4 @@
-# Lets Chat!
+# :seedling: Lets Chat!
 
 ## Team Members
 | Name     | SFSU ID           | Email |
