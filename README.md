@@ -7,6 +7,9 @@
 | Ida Hui     | 911912370     |  ihui@mail.sfsu.edu |
 
 ## Proposal
+
+Wanting to learn and change the way people communicate through mobile devices, our team is determined to create a chat app where users have the ability to communicate with each other, on seperate devices, in real-time.
+
 ### Must have (P1)
 
 :partly_sunny: Users will be able to register and login (user authentication). 
