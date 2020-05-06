@@ -1,6 +1,6 @@
 # Chat App
 
-### Members
+### Team Members
 | Name     | SFSU ID           | 
 | ------------- |:-------------:| 
 | Chris Jol   | ##########|
