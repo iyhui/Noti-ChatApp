@@ -1,10 +1,10 @@
 # Chat App
 
 ## Team Members
-| Name     | SFSU ID           | 
-| ------------- |:-------------:| 
-| Chris Jol   | ##########|
-| Ida Hui     | 911912370     |  
+| Name     | SFSU ID           | Email |
+| ------------- |:-------------:| -------------| 
+| Chris Jol   | ##########| email |
+| Ida Hui     | 911912370     |  ihui@mail.sfsu.edu |
 
 ## Proposal
 ### Must have
