@@ -1,8 +1,8 @@
 # Chat App
 
-| Team Members                       |
+## Members
 | Name     | SFSU ID           | 
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |  
-| zebra stripes | are neat      |   
+| Chris Jol   | ##########|
+| Ida Hui     | #911912370     |  
+
