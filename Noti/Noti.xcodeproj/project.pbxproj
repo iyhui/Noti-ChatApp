@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47B35BF8C0E29050A8AFAA20 /* Pods_Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF92F27D62E54A8A403C93C5 /* Pods_Noti.framework */; };
 		833A44BE2467317C00716EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44BD2467317C00716EBB /* AppDelegate.swift */; };
 		833A44C02467317C00716EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44BF2467317C00716EBB /* SceneDelegate.swift */; };
 		833A44C22467317C00716EBB /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44C12467317C00716EBB /* ThreadViewController.swift */; };
@@ -15,10 +14,9 @@
 		833A44C72467317C00716EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A44C62467317C00716EBB /* Assets.xcassets */; };
 		833A44CA2467317C00716EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833A44C82467317C00716EBB /* LaunchScreen.storyboard */; };
 		833A44D52467317D00716EBB /* NotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44D42467317D00716EBB /* NotiTests.swift */; };
-		833A44E3246742AA00716EBB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44E2246742AA00716EBB /* WelcomeViewController.swift */; };
-		833A44E724674D6200716EBB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44E624674D6200716EBB /* SignupViewController.swift */; };
-		833A44E9246759E700716EBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A44E8246759E700716EBB /* LoginViewController.swift */; };
-		E9E7CE56C56B2083C026157A /* Pods_NotiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B77AA812A4ADF06E0C8B20 /* Pods_NotiTests.framework */; };
+		83AD69E02469E9EC006ACC01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DD2469E9EC006ACC01 /* LoginViewController.swift */; };
+		83AD69E12469E9EC006ACC01 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DE2469E9EC006ACC01 /* SignupViewController.swift */; };
+		83AD69E22469E9EC006ACC01 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DF2469E9EC006ACC01 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07B77AA812A4ADF06E0C8B20 /* Pods_NotiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA256FDF158BE4811A318E8 /* Pods-Noti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noti.debug.xcconfig"; path = "Target Support Files/Pods-Noti/Pods-Noti.debug.xcconfig"; sourceTree = "<group>"; };
-		2D5951BBDD4B119C96F7750D /* Pods-NotiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotiTests.release.xcconfig"; path = "Target Support Files/Pods-NotiTests/Pods-NotiTests.release.xcconfig"; sourceTree = "<group>"; };
 		833A44BA2467317C00716EBB /* Noti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A44BD2467317C00716EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833A44BF2467317C00716EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +41,9 @@
 		833A44D02467317D00716EBB /* NotiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A44D42467317D00716EBB /* NotiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiTests.swift; sourceTree = "<group>"; };
 		833A44D62467317D00716EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833A44E2246742AA00716EBB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../../../../WelcomeViewController.swift; sourceTree = "<group>"; };
-		833A44E624674D6200716EBB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = ../../../../SignupViewController.swift; sourceTree = "<group>"; };
-		833A44E8246759E700716EBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../LoginViewController.swift; sourceTree = "<group>"; };
-		8B82004E4F93F90E3CC72693 /* Pods-Noti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noti.release.xcconfig"; path = "Target Support Files/Pods-Noti/Pods-Noti.release.xcconfig"; sourceTree = "<group>"; };
-		BF92F27D62E54A8A403C93C5 /* Pods_Noti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF51A91BFD3A8366FD1BCAA1 /* Pods-NotiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotiTests.debug.xcconfig"; path = "Target Support Files/Pods-NotiTests/Pods-NotiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83AD69DD2469E9EC006ACC01 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		83AD69DE2469E9EC006ACC01 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		83AD69DF2469E9EC006ACC01 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B35BF8C0E29050A8AFAA20 /* Pods_Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E7CE56C56B2083C026157A /* Pods_NotiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +67,6 @@
 		46B0FC97C05130B08B7BB720 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1BA256FDF158BE4811A318E8 /* Pods-Noti.debug.xcconfig */,
-				8B82004E4F93F90E3CC72693 /* Pods-Noti.release.xcconfig */,
-				CF51A91BFD3A8366FD1BCAA1 /* Pods-NotiTests.debug.xcconfig */,
-				2D5951BBDD4B119C96F7750D /* Pods-NotiTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -92,7 +78,6 @@
 				833A44D32467317D00716EBB /* NotiTests */,
 				833A44BB2467317C00716EBB /* Products */,
 				46B0FC97C05130B08B7BB720 /* Pods */,
-				96A8CB357CF5111E547A2B7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,10 +125,10 @@
 		833A44E02467415D00716EBB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				83AD69DD2469E9EC006ACC01 /* LoginViewController.swift */,
+				83AD69DE2469E9EC006ACC01 /* SignupViewController.swift */,
+				83AD69DF2469E9EC006ACC01 /* WelcomeViewController.swift */,
 				833A44C12467317C00716EBB /* ThreadViewController.swift */,
-				833A44E2246742AA00716EBB /* WelcomeViewController.swift */,
-				833A44E624674D6200716EBB /* SignupViewController.swift */,
-				833A44E8246759E700716EBB /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,15 +140,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		96A8CB357CF5111E547A2B7D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF92F27D62E54A8A403C93C5 /* Pods_Noti.framework */,
-				07B77AA812A4ADF06E0C8B20 /* Pods_NotiTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,11 +147,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 833A44D92467317D00716EBB /* Build configuration list for PBXNativeTarget "Noti" */;
 			buildPhases = (
-				A698A06864886E5F6409B048 /* [CP] Check Pods Manifest.lock */,
 				833A44B62467317B00716EBB /* Sources */,
 				833A44B72467317B00716EBB /* Frameworks */,
 				833A44B82467317B00716EBB /* Resources */,
-				44EC6483CA1413043F071777 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +164,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 833A44DC2467317D00716EBB /* Build configuration list for PBXNativeTarget "NotiTests" */;
 			buildPhases = (
-				165288D6643A30669B9E741A /* [CP] Check Pods Manifest.lock */,
 				833A44CC2467317D00716EBB /* Sources */,
 				833A44CD2467317D00716EBB /* Frameworks */,
 				833A44CE2467317D00716EBB /* Resources */,
@@ -263,79 +236,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		165288D6643A30669B9E741A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotiTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44EC6483CA1413043F071777 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A698A06864886E5F6409B048 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Noti-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		833A44B62467317B00716EBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833A44E9246759E700716EBB /* LoginViewController.swift in Sources */,
-				833A44E724674D6200716EBB /* SignupViewController.swift in Sources */,
+				83AD69E02469E9EC006ACC01 /* LoginViewController.swift in Sources */,
 				833A44C22467317C00716EBB /* ThreadViewController.swift in Sources */,
-				833A44E3246742AA00716EBB /* WelcomeViewController.swift in Sources */,
+				83AD69E12469E9EC006ACC01 /* SignupViewController.swift in Sources */,
+				83AD69E22469E9EC006ACC01 /* WelcomeViewController.swift in Sources */,
 				833A44BE2467317C00716EBB /* AppDelegate.swift in Sources */,
 				833A44C02467317C00716EBB /* SceneDelegate.swift in Sources */,
 			);
@@ -495,7 +404,6 @@
 		};
 		833A44DA2467317D00716EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BA256FDF158BE4811A318E8 /* Pods-Noti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,7 +421,6 @@
 		};
 		833A44DB2467317D00716EBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B82004E4F93F90E3CC72693 /* Pods-Noti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,7 +438,6 @@
 		};
 		833A44DD2467317D00716EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF51A91BFD3A8366FD1BCAA1 /* Pods-NotiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -553,7 +459,6 @@
 		};
 		833A44DE2467317D00716EBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D5951BBDD4B119C96F7750D /* Pods-NotiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
