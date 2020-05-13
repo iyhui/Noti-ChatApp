@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ThreadViewController: UIViewController {
 
@@ -15,6 +16,18 @@ class ThreadViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
 
+    @IBAction func logoutBpressed(_ sender: UIBarButtonItem) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        
+         navigationController?.popToRootViewController(animated: true)
+            
+        }   catch let signOutError as NSError {
+                print ("Error signing out: %@", signOutError)
+            }
+    }
+    
 
 }
 
