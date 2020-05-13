@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     @IBAction func LoginButton(_ sender: Any) {
   }
@@ -22,16 +23,17 @@ class WelcomeViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     
+    titleLabel.text = "Noti"
     
-    var charIndex = 0.0
-    titleLabel.text = ""
-    let titleText = "Noti"
-    for letter in titleText {
-        Timer.scheduledTimer(withTimeInterval: 0.4 * charIndex, repeats: false) {(timer) in
-            self.titleLabel.text?.append(letter)
-        }
-        charIndex += 1
-    }
+//    var charIndex = 0.0
+//    titleLabel.text = ""
+//    let titleText = "Noti"
+//    for letter in titleText {
+//        Timer.scheduledTimer(withTimeInterval: 0.4 * charIndex, repeats: false) {(timer) in
+//            self.titleLabel.text?.append(letter)
+//        }
+//        charIndex += 1
+//    }
     
     
   }

@@ -61,6 +61,9 @@
                                         <integer key="value" value="35"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registerPressed:" destination="0sO-id-wpP" eventType="touchUpInside" id="uq6-Y6-Bag"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81568627450980391" green="0.8666666666666667" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -248,7 +251,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUI-hz-D1d">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUI-hz-D1d" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="157.5" y="358" width="99.5" height="58"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -330,6 +333,9 @@
                                         <state key="normal" title="Go">
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginPressed:" destination="rK3-fG-60r" eventType="touchUpInside" id="wBK-Sd-k7x"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.3921568627" green="0.2784313725" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -365,6 +371,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="rIa-qE-C6C"/>
                     <connections>
+                        <outlet property="passwordField" destination="CZz-ap-p90" id="wY9-jk-mB9"/>
+                        <outlet property="userField" destination="fzB-R6-7Ts" id="r1o-Zw-AFO"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="loginSegue" id="Op7-9B-VZ1"/>
                     </connections>
                 </viewController>
@@ -396,6 +404,6 @@
         <image name="square.and.pencil" catalog="system" width="64" height="58"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="exz-X4-h7s"/>
+        <segue reference="Op7-9B-VZ1"/>
     </inferredMetricsTieBreakers>
 </document>

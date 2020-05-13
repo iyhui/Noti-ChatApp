@@ -1,0 +1,17 @@
+platform :ios, '13.0'
+
+target 'Noti' do
+
+  use_frameworks!
+
+  # Pods for Noti
+
+	pod 'CLTypingLabel', '~> 0.4.0'
+
+  #authentication
+  pod 'Firebase/Auth'
+  
+  #cloud firestore
+  pod 'Firebase/Firestore'
+
+end
