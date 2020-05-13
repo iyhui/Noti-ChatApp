@@ -23,3 +23,5 @@ Wanting to learn and change the way people communicate through mobile devices, o
 :cloud: Notifications Popup 
 
 :cloud: Notification Sounds
+
+:cloud: Animations
