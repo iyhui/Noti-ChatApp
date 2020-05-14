@@ -11,9 +11,9 @@ import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: CLTypingLabel!
+  @IBOutlet weak var titleLabel: CLTypingLabel!
     
-    @IBAction func LoginButton(_ sender: Any) {
+  @IBAction func LoginButton(_ sender: Any) {
   }
   
   @IBAction func SignupButton(_ sender: Any) {
