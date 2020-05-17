@@ -26,7 +26,7 @@ It's quarantine - we're all playing Animal Crossing. As a person who doesn't wan
 
 :cloud: A list of all threads/convos
 
-### Nice to have (P2)
+### Installation
 ▷ Download App
 
 ▷ Install pods ("Pod Install" in the terminal). Make sure you're in the Noti directory.
@@ -35,3 +35,4 @@ It's quarantine - we're all playing Animal Crossing. As a person who doesn't wan
 
 ▷ Create your own user/password
 ▷ Or user premade accounts: user1@690.com, user2@690.com
+
