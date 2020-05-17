@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,12 @@
 		83AD69E02469E9EC006ACC01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DD2469E9EC006ACC01 /* LoginViewController.swift */; };
 		83AD69E12469E9EC006ACC01 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DE2469E9EC006ACC01 /* SignupViewController.swift */; };
 		83AD69E22469E9EC006ACC01 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD69DF2469E9EC006ACC01 /* WelcomeViewController.swift */; };
+		BA280DCE2470B0EB00BC1091 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA280DCD2470B0EB00BC1091 /* IQKeyboardManagerSwift */; };
+		BACBA882246B135700DD1AB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BACBA881246B135700DD1AB5 /* GoogleService-Info.plist */; };
+		BAFA4050246E7964000B4188 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA404F246E7964000B4188 /* Message.swift */; };
+		BAFA4053246E8440000B4188 /* mCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA4051246E8440000B4188 /* mCell.swift */; };
+		BAFA4054246E8440000B4188 /* mCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFA4052246E8440000B4188 /* mCell.xib */; };
+		E396661514D406F94E81AFEB /* Pods_Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3F638EDAD0E9C84A1077F /* Pods_Noti.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B6AEB9FC9403C6BD7B9F12 /* Pods-Noti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noti.debug.xcconfig"; path = "Target Support Files/Pods-Noti/Pods-Noti.debug.xcconfig"; sourceTree = "<group>"; };
+		55A3F638EDAD0E9C84A1077F /* Pods_Noti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A44BA2467317C00716EBB /* Noti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A44BD2467317C00716EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833A44BF2467317C00716EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +52,11 @@
 		83AD69DD2469E9EC006ACC01 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83AD69DE2469E9EC006ACC01 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		83AD69DF2469E9EC006ACC01 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BACBA881246B135700DD1AB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAFA404F246E7964000B4188 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Noti/Views/Message.swift; sourceTree = SOURCE_ROOT; };
+		BAFA4051246E8440000B4188 /* mCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mCell.swift; sourceTree = "<group>"; };
+		BAFA4052246E8440000B4188 /* mCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mCell.xib; sourceTree = "<group>"; };
+		FE002D888E6593C1741653D0 /* Pods-Noti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noti.release.xcconfig"; path = "Target Support Files/Pods-Noti/Pods-Noti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E396661514D406F94E81AFEB /* Pods_Noti.framework in Frameworks */,
+				BA280DCE2470B0EB00BC1091 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +82,18 @@
 		46B0FC97C05130B08B7BB720 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				07B6AEB9FC9403C6BD7B9F12 /* Pods-Noti.debug.xcconfig */,
+				FE002D888E6593C1741653D0 /* Pods-Noti.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		577265EA48F0D1D6DEE64660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A3F638EDAD0E9C84A1077F /* Pods_Noti.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		833A44B12467317B00716EBB = {
@@ -78,6 +103,7 @@
 				833A44D32467317D00716EBB /* NotiTests */,
 				833A44BB2467317C00716EBB /* Products */,
 				46B0FC97C05130B08B7BB720 /* Pods */,
+				577265EA48F0D1D6DEE64660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +126,7 @@
 				833A44E02467415D00716EBB /* Controllers */,
 				833A44C62467317C00716EBB /* Assets.xcassets */,
 				833A44C82467317C00716EBB /* LaunchScreen.storyboard */,
+				BACBA881246B135700DD1AB5 /* GoogleService-Info.plist */,
 				833A44CB2467317C00716EBB /* Info.plist */,
 			);
 			path = Noti;
@@ -118,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				833A44C32467317C00716EBB /* Main.storyboard */,
+				BAFA4051246E8440000B4188 /* mCell.swift */,
+				BAFA4052246E8440000B4188 /* mCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +165,7 @@
 		833A44E12467417400716EBB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BAFA404F246E7964000B4188 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,15 +177,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 833A44D92467317D00716EBB /* Build configuration list for PBXNativeTarget "Noti" */;
 			buildPhases = (
+				4ED3381910F556625F10A75A /* [CP] Check Pods Manifest.lock */,
 				833A44B62467317B00716EBB /* Sources */,
 				833A44B72467317B00716EBB /* Frameworks */,
 				833A44B82467317B00716EBB /* Resources */,
+				B79861A41BA2F64FCB20A5AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Noti;
+			packageProductDependencies = (
+				BA280DCD2470B0EB00BC1091 /* IQKeyboardManagerSwift */,
+			);
 			productName = Noti;
 			productReference = 833A44BA2467317C00716EBB /* Noti.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 833A44B12467317B00716EBB;
+			packageReferences = (
+				BA280DCC2470B0EB00BC1091 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 833A44BB2467317C00716EBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -221,7 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFA4054246E8440000B4188 /* mCell.xib in Resources */,
 				833A44CA2467317C00716EBB /* LaunchScreen.storyboard in Resources */,
+				BACBA882246B135700DD1AB5 /* GoogleService-Info.plist in Resources */,
 				833A44C72467317C00716EBB /* Assets.xcassets in Resources */,
 				833A44C52467317C00716EBB /* Main.storyboard in Resources */,
 			);
@@ -236,13 +276,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ED3381910F556625F10A75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79861A41BA2F64FCB20A5AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noti/Pods-Noti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		833A44B62467317B00716EBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFA4050246E7964000B4188 /* Message.swift in Sources */,
 				83AD69E02469E9EC006ACC01 /* LoginViewController.swift in Sources */,
 				833A44C22467317C00716EBB /* ThreadViewController.swift in Sources */,
+				BAFA4053246E8440000B4188 /* mCell.swift in Sources */,
 				83AD69E12469E9EC006ACC01 /* SignupViewController.swift in Sources */,
 				83AD69E22469E9EC006ACC01 /* WelcomeViewController.swift in Sources */,
 				833A44BE2467317C00716EBB /* AppDelegate.swift in Sources */,
@@ -404,6 +488,7 @@
 		};
 		833A44DA2467317D00716EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B6AEB9FC9403C6BD7B9F12 /* Pods-Noti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -421,6 +506,7 @@
 		};
 		833A44DB2467317D00716EBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE002D888E6593C1741653D0 /* Pods-Noti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA280DCC2470B0EB00BC1091 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA280DCD2470B0EB00BC1091 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA280DCC2470B0EB00BC1091 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 833A44B22467317B00716EBB /* Project object */;
 }

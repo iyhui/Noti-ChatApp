@@ -1,0 +1,15 @@
+platform :ios, '13.0'
+
+target 'Noti' do
+
+  use_frameworks!
+
+  # Pods for Noti
+
+  #authentication
+  pod 'Firebase/Auth'
+  
+  #cloud firestore
+  pod 'Firebase/Firestore'
+
+end

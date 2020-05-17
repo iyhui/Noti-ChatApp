@@ -8,8 +8,11 @@
 
 import UIKit
 
+
 class WelcomeViewController: UIViewController {
 
+  @IBOutlet weak var titleLabel: UILabel!
+    
   @IBAction func LoginButton(_ sender: Any) {
   }
   
@@ -19,6 +22,18 @@ class WelcomeViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+    
+    var charIndex = 0.0
+    titleLabel.text = ""
+    let titleText = "Noti"
+    for letter in titleText {
+        Timer.scheduledTimer(withTimeInterval: 0.4 * charIndex, repeats: false) {(timer) in
+            self.titleLabel.text?.append(letter)
+        }
+        charIndex += 1
+    }
+    
+    
   }
   
   override func viewWillAppear(_ animated: Bool) {
