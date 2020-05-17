@@ -26,23 +26,24 @@ It's quarantine - we're all playing Animal Crossing. As a person who doesn't wan
 
 :cloud: A list of all threads/convos
 
-<<<<<<< HEAD
 ### Nice to have (P2)
-:cyclone: Download App
-=======
+
+:cloud: Notifications Popup 
+
+:cloud: Notification Sounds
+
+:cloud: A list of all threads/convos
+
 ### Installation
-▷ Download App
->>>>>>> 8dfb47e5e702edaa5aa91a3b6ee33db20c3fcdb1
+
+:cyclone: Download App
 
 :cyclone: Install pods ("Pod Install" in the terminal). Make sure you're in the Noti directory.
 
 :cyclone: Open Workspace and run the program (command + R)
 
-<<<<<<< HEAD
-:cyclone: Create your own user/password
-:cyclone: Or user premade accounts: user1@690.com, user2@690.com
-=======
-▷ Create your own user/password
-▷ Or user premade accounts: user1@690.com, user2@690.com
 
->>>>>>> 8dfb47e5e702edaa5aa91a3b6ee33db20c3fcdb1
+:cyclone: Create your own user/password
+
+:cyclone: Or user premade accounts: user1@690.com, user2@690.com
+
