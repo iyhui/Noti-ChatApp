@@ -8,7 +8,7 @@
 
 ## Proposal
 
-It's quarantine - we're all playing Animal Crossing. As a person who doesn't want to speak to people who aren't playing the game, I (and many others) accidently leave people on read while trying to respond to actual players. This is a seperate chat app for Animal Crossing enthusiasts. We'll never have to open another messaging app and accidentally leave someone on read. Plus, this app is way cooler and on theme.  
+It's quarantine - we're all playing Animal Crossing. As a person who doesn't want to speak to people who aren't playing the game, I (and many others) accidently leave people on read while trying to respond to actual players. This is a seperate chat app for Animal Crossing enthusiasts. We'll never have to accidentally open another message - leaving someone on read and feeling neglected. Plus, this app is way cooler and on theme.  
 
 ### Must have (P1)
 
