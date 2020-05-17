@@ -10,6 +10,8 @@ import UIKit
 import Firebase
 
 class ThreadViewController: UIViewController {
+    
+    
 
     @IBOutlet weak var messageText: UITextField!
     @IBOutlet weak var messageTableView: UITableView!
