@@ -6,8 +6,6 @@ target 'Noti' do
 
   # Pods for Noti
 
-	pod 'CLTypingLabel', '~> 0.4.0'
-
   #authentication
   pod 'Firebase/Auth'
   
