@@ -8,7 +8,7 @@
 
 ## Proposal
 
-Wanting to learn and change the way people communicate through mobile devices, our team is determined to create a chat app where users have the ability to communicate with each other, on seperate devices, in real-time.
+It's quarantine - we're all playing Animal Crossing. As a person who doesn't want to speak to people who aren't playing the game, I (and many others) accidently leave people on read while trying to respond to actual players. This is a seperate chat app for Animal Crossing enthusiasts. We'll never have to open another messaging app and accidentally leave someone on read. Plus, this app is way cooler and on theme.  
 
 ### Must have (P1)
 
@@ -23,3 +23,15 @@ Wanting to learn and change the way people communicate through mobile devices, o
 :cloud: Notifications Popup 
 
 :cloud: Notification Sounds
+
+:cloud: A list of all threads/convos
+
+### Nice to have (P2)
+▷ Download App
+
+▷ Install pods ("Pod Install" in the terminal). Make sure you're in the Noti directory.
+
+▷ Open Workspace and run the program (command + R)
+
+▷ Create your own user/password
+▷ Or user premade accounts: user1@690.com, user2@690.com
