@@ -1,5 +1,8 @@
 # :mushroom: Noti - Chat App
 
+## Design
+[Figma Files](https://www.figma.com/file/lb5KhLHFEkg76q4ZLZlNvQ/Untitled?node-id=0%3A1)
+
 ## Team Members
 | Name     | SFSU ID           | Email |
 | ------------- |:-------------:| -------------| 
