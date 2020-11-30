@@ -1,7 +1,6 @@
 # :mushroom: Noti - Chat App
 
-<img width="330" alt="Screen Shot 2020-11-30 at 12 51 05 AM" src="https://user-images.githubusercontent.com/36140849/100589503-0bdf2500-32a8-11eb-8918-cedae592c98d.png">
-
+| <img width="330" alt="Screen Shot 2020-11-30 at 12 51 05 AM" src="https://user-images.githubusercontent.com/36140849/100589503-0bdf2500-32a8-11eb-8918-cedae592c98d.png">| 
 
 ## Design
 [Figma Files](https://www.figma.com/file/lb5KhLHFEkg76q4ZLZlNvQ/Untitled?node-id=0%3A1)
@@ -39,3 +38,5 @@ It's quarantine - we're all playing Animal Crossing. As a person who doesn't wan
 :cyclone: Create your own user/password
 
 :cyclone: Or use premade accounts: user1@690.com, user2@690.com. Password is the same and already prestored.
+
+|
