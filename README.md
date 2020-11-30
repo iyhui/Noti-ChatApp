@@ -1,5 +1,8 @@
 # :mushroom: Noti - Chat App
 
+<img width="330" alt="Screen Shot 2020-11-30 at 12 51 05 AM" src="https://user-images.githubusercontent.com/36140849/100589503-0bdf2500-32a8-11eb-8918-cedae592c98d.png">
+
+
 ## Design
 [Figma Files](https://www.figma.com/file/lb5KhLHFEkg76q4ZLZlNvQ/Untitled?node-id=0%3A1)
 
