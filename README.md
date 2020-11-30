@@ -3,11 +3,6 @@
 ## Design
 [Figma Files](https://www.figma.com/file/lb5KhLHFEkg76q4ZLZlNvQ/Untitled?node-id=0%3A1)
 
-## Team Members
-| Name     | SFSU ID           | Email |
-| ------------- |:-------------:| -------------| 
-| Chris Jol   | 913289265| cjol@mail.sfsu.edu |
-| Ida Hui     | 911912370     |  ihui@mail.sfsu.edu |
 
 ## Proposal
 
